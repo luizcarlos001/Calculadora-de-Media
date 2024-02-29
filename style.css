@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Math&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2a0250;
+  font-family: "Noto Sans Math", sans-serif;
+}
+
+.container {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 120px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  color: #ffffff;
+
+}
+
+h1 {
+  background-color: blueviolet;
+  padding: 10px;
+}
+
+.notas {
+  font-size: 18px;
+}
+
+input {
+  width: 100%;
+  outline: none;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  font-size: 19px;
+  border-radius: 8px;
+  transition: padding 0.3s;
+}
+
+button:hover {
+  padding: 19px;
+  background-color: blueviolet;
+  color: #ffffff;
+}
+
+#resultado {
+  font-size: 20px;
+  text-align: center;
+  background-color: blueviolet;
+}
